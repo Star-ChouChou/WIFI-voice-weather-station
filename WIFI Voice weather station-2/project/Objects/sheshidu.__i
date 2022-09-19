@@ -1,0 +1,6 @@
+--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user -I ..\starup -I ..\user\api -I ..\LIB\inc -I ..\LVGL -I ..\LVGL_APP -I ..\LVGL\lv_examples-v6.0 -I ..\LVGL\lvgl_driver -I ..\LVGL\lvgl-v6.0 --diag_suppress=68 --diag_suppress=111 --diag_suppress=550
+-I.\RTE\_Target_1
+-I"F:\Program Files (x86)\MDK-ARM527\ARM\ARM\CMSIS\5.5.1\CMSIS\Core\Include"
+-I"F:\Program Files (x86)\MDK-ARM527\ARM\Keil\STM32F1xx_DFP\1.0.5\Device\Include"
+-D__UVISION_VERSION="527" -D_RTE_ -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o .\objects\sheshidu.o --omf_browse .\objects\sheshidu.crf --depend .\objects\sheshidu.d "..\LVGL_APP\sheshidu.c"
